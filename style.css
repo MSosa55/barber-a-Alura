@@ -89,10 +89,7 @@ footer{
  color:#ffffff;
  margin: 20px;
 }
-main{
-    width: 940px;
-    margin: 0 auto;
-}
+
 form{
     margin:40px 0;
 }
@@ -145,11 +142,23 @@ td,th{
 .banner{
     width: 100%;
 }
+.principal{
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
 .titulo-principal{
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+}
+.titulo-principal:first-letter{
+    font-weight: bold;
+}
+p:first-line{
+    font-style: italic;
 }
 .principal p{
     margin: 0 0 1em;
@@ -172,17 +181,30 @@ td,th{
 .items{
     line-height: 1.5;
 }
+.items:before{
+    content: "★";
+}
+.items:first-child{
+    font-weight: bold;
+}
 .imagen-diferenciales{
     width: 60%;
 }
 .mapa{
     padding: 3em 0;
-
-   
+    background: linear-gradient(#fefefe, #888888);
 }
 .mapa p{
     margin: 0 0 2em;
     text-align: center;
+}
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+.diferenciales{
+    padding: 3em 0;
+    background: #888888;
 }
 .utensillos{
     width: 120px;
